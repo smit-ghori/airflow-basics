@@ -1,0 +1,19 @@
+[project]
+name = "practicles"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Smit-Ghori", email = "smitghori83@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "apache-airflow>=3.3.1",
+]
+
+[project.scripts]
+practicles = "practicles:main"
+
+[build-system]
+requires = ["uv_build>=0.12.4,<0.13.0"]
+build-backend = "uv_build"
